@@ -3,8 +3,35 @@
     <head>
         <meta charset="utf-8">
         <title>Rock Paper Scissor </title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-         Rock Paper Scissor
+         <header>
+             <h1>Rock Paper Scissor</h1>
+         </header>
+
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>Paper cover rock. You Win!</p>
+        </div>
+
+         <div class="choices">
+             <div class="choice" id="r">
+                 <img src="images/Rock.png" alt="">
+             </div>
+             <div class="choice" id="p">
+                 <img src="images/Paper.png" alt="">
+             </div>
+             <div class="choice" id="s">
+                 <img src="images/Scissor.png" alt="">
+             </div>
+         </div>
+
+    <p id="action-message">Make Your Move</p>
     </body>
 </html>
